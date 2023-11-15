@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#work2" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#work3" class="icon solid fa-folder"><span>Work</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>張舒婷</h1>
+									<p>111502025 資訊工程學系2B</p>
+								</header>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>折線圖</h2>
+								</header>
+								<div id="Graph_line"></div>
+								<h3>
+									從這個圖可以發現台中無論在任何時間，最高溫和最低溫都高於或等於桃園的溫度。
+									做這個圖主要是因為我是台中人，到中壢讀書真的很不習慣這裡的天氣，時常下雨又很冷，常常會想念台中的太陽。
+								</h3>
+								
+							</article>
+
+							<article id="work2" class="panel">
+								<header>
+									<h2>長條圖</h2>
+								</header>
+								<div id="Graph_bar"></div>
+								<h3>
+									這裡列舉了五間大學的電機系及資工系招生人數，交通大學在兩個系的招生人數都位居第一，而本校中央大學人數則都是最少的。
+									資工系除了交通大學外另外四間的招生人數都相差不多。
+								</h3>
+								
+							</article>
+
+							<article id="work3" class="panel">
+								<header>
+									<h2>圓餅圖</h2>
+								</header>
+								<div id="Graph_pie"></div>
+								<h3>
+									由左邊的圖可看出世界人口數最多的是亞洲，其次是非洲，再來是歐洲。
+									右邊的圖是依國家人口數排名，第一是中國，再來是印度，第三多是美國。
+									第一名的中國及第二名的印度皆位於亞洲。
+								</h3>
+								
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="graph/bar/data_bar.js"></script>
+			<script src="graph/bar/main_bar.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="graph/Lineandscatter/data_line.js"></script>
+			<script src="graph/Lineandscatter/main_line.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="graph/pie/data_pie.js"></script>
+			<script src="graph/pie/main_pie.js"></script>
+
+	</body>
+</html>
